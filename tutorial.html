@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anaconda installation guide</title>
+    <link rel="stylesheet" href="tutorial.css">
+</head>
+<body>
+    <h1>Anaconda Installation Summary Guide</h1>
+    <h2>For Ubuntu</h2>
+    <ol>
+        <li>
+            <code>
+                $sudo apt-get install libgl1-mesa-glx
+                libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1
+                libxcomposite1 libasound2 libxi6 libxtst6
+            </code>
+        </li>
+        <li>Download anaconda for linux 
+            <a href="https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh">here</a>
+            and put it in a directory of your choice.
+        </li>
+        <li>
+            Verify data integrity of the downloaded file using SHA-256 
+            <code>$sha256sum path/to/downloaded_file/filename</code>
+        </li>
+        <li>
+            To install anaconda for python 3.7
+            <code>$bash ~/path/to/downloaded_file/filename.sh or Anaconda3-2021.05-Linux-x86_64().sh</code>
+        </li>
+        <li>
+            Close and open your terminal window for the installation to take effect, or you can enter the command 
+            <code>$source ~/.bashrc</code>
+        </li>
+        <li>
+            After filling the prompt from the terminal, use the code below to activate the conda environment
+            <code>$source &lt;path to conda&gt;/bin/activate</code>
+        </li>
+        <li>Then run <code>$conda init</code></li>
+        <li>Finally, <code>$anaconda-navigator</code></li>
+    </ol>
+    <h4>NOTE</h4>
+    <p>Step 6 and Step 8 are important for using anaconda after a successful installation in ubuntu</p>
+    <ul class="final">
+        <li>Step 6: $source &lt;path to conda&gt;/bin/activate</li>
+        <li>Step 8: $anaconda-navigator or $ $jupyter-notebook</li>
+    </ul>
+</body>
+</html>
