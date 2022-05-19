@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    line-height: 1.5;
+}
+
+h1, h2, h4 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 153, 0);
+    margin: 4px;
+    padding: 4px;
+}
+
+ol li {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    color: rgb(67, 165, 43);
+    line-height: 2.5;
+}
+
+code {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    background-color: rgba(23, 75, 187, 0.712);
+    padding: 4px;
+    color: rgb(220, 231, 60);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    color: rgb(67, 165, 43);
+    line-height: 2.5;
+}
+
+p {
+    color: lawngreen;
+}
